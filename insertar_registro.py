@@ -4,6 +4,8 @@ from tkinter import ttk
 from mysql.connector import cursor
 import demo_database
 
+from tkinter import messagebox
+
 window = Tk()
 frame_app = Frame(window, width=800, height=600, )
 window.title('REGISTROS')
